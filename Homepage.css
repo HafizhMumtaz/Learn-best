@@ -1,0 +1,218 @@
+body{
+    background-color: #f8f4e8;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #0b5b45;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    font-size: 20px;
+    height: 120px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#introduction {
+    margin-top: 100px;
+    font-size: 25px;
+    text-align: end;
+    text-align: left;
+    padding: 0 500px;
+    margin-bottom: 400px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#get-started{
+    text-align: left;
+    font-size: 50px;
+    color: #58cc02;
+    margin-top: 50px;
+    
+}
+#login-btn {
+    background-color:  #0b5b45;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 49px;
+}
+#img-lb{
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    width: 400px;
+    height: auto;
+}   
+#features { 
+    margin-top: 205px;  
+    font-size: 20px;    
+    text-align: center; 
+    padding: 0 200px;   
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}   
+#About-us{  
+    font-size: 70px;    
+    text-align: right;  
+    margin-right: 250px  ;  
+}   
+#Description{
+    font-size: 25px;
+    text-align: right;
+    margin-left: 200px  ;
+    text-wrap: balance;
+    width: 1000px;
+    flex: 1;
+}
+#LearnMore{
+    background-color:  #0b5b45;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 30px;
+    margin-top: 20px;
+    float: right;
+    margin-right: 250px;
+}
+#question{
+    position: absolute;
+    top: 1090px;
+    left: 70px;
+    width: 350px;
+    height: auto;
+}
+.footer {
+    background-color: #0b5b45;
+    color: white;
+    text-align: center;
+    padding: 100px;
+    position: relative;
+    margin-top: 250px;
+}
+#copyright {
+    font-size: 20px;
+    margin-top: 10px;
+}
+header{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.Slide {
+    opacity: 0;
+    transform: translateX(-100px);   /* start off-screen to the left */
+    transition: all 0.8s ease-out;
+}
+
+.Slide.show {
+    opacity: 1;
+    transform: translateX(0);        /* slide to normal position */
+}
+
+.SlideR {
+    opacity: 0;
+    transform: translateX(100px);   /* start off-screen to the right */
+    transition: all 0.8s ease-out;
+}
+.SlideR.show {
+    opacity: 1;
+    transform: translateX(0);        /* slide to normal position */
+}
+#Logo-Header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 120px;
+    height: auto;
+}
+#Title{
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+#forums{
+    margin-top: 530px;  
+    font-size: 20px;    
+    text-align: left; 
+    padding: 0 50px;
+    margin-left: 75px;   
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#community{
+    font-size: 70px;    
+    text-align: left;  
+    margin-left: 0px  ;  
+}
+#yapping{
+    position: relative;
+    
+    right: 0px;
+    width: 800px;
+}
+#forumlink{
+    background-color:  #0b5b45;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 30px;
+    margin-top: 20px;
+    float: left;
+    margin-left: 1px;
+}
+#img-com{
+    position: absolute;
+    top: 20px;
+    left: 1100px;
+    width: 400px;
+    height: auto;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    
+    background-color: #0b5b45;
+    margin-top: 200px;
+    height: auto;
+    color: white;
+}
+#Contact-Us{
+    font-size: 20px;    
+    align-items: center; 
+    display: absolute;
+    justify-content: space-between;
+}
+#ig{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+#ig:hover{
+    background-color: #58cc02;
+}
+#email{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+#email:hover{
+    background-color: #58cc02;
+}
+#imgFoot{
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    width: 90px;
+    height: auto;
+}

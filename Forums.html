@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discussion forums</title>
+    <link rel="stylesheet" href="Forums.css">
+</head>
+<body>
+    <header>
+        <h1>Community Forums</h1>
+        <a href="wonggiladadilebihgila.html"><button id="home">Home</button></a>
+        <a href="Homepage.html"><img id="logoTop" src="LearnBest logo-Header.png" alt=""></a>
+    </header>
+    <main>
+        <section id="post-form">
+            <h2>Start a New Discussion</h2>
+            <form id="new-post-form">
+                <input type="text" id="username" placeholder="Your Name" required>
+                <input type="url" id="profile-pic" placeholder="Profile Picture URL (optional)">
+                <input type="text" id="title" placeholder="Post Title" required>
+                <textarea id="content" placeholder="Write your post here..." required></textarea>
+                <button type="submit">Post</button>
+            </form>
+        </section>
+        <section id="posts">
+            <h2>Discussions</h2>
+            <div id="posts-container"></div>
+        </section>
+    </main>
+    <script src="forums_js_updated.js"></script>
+</body>
+</html>

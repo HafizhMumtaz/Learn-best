@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Best</title>
+    <link rel="stylesheet" href="orawajar.css">
+</head>
+<body>
+    <header>
+        <h1 id="MainTitle">Learn Best</h1>
+        <p>Learn at your best, because happy teens learn best!</p>
+        <div id="user-info">
+            <span id="username-display"></span>
+            <button id="logout-btn" style="display:none;">Logout</button>
+        </div>
+        <a href="Homepage.html"><img id="imgHead" src="LearnBest logo-Header.png" alt=""></a>
+        <a id="forumlink" href="Forums.html">Forums</a>
+    </header>
+    
+    <main id="main-content" style="display:none;">
+        <section id="xp-section">
+            <h2>XP Progress</h2>
+            <p>Total XP: <span id="total-xp">0</span></p>
+            <div id="xp-bar">
+                <div id="xp-fill"></div>
+            </div>
+            <p>Next Level: <span id="next-level">1</span></p>
+        </section>
+        
+        <section id="skill-tree">
+            <h2>Skill Tree</h2>
+            <div id="levels-container">
+                <!-- Levels will be dynamically generated here -->
+            </div>
+        </section>
+        
+        <section id="notes">
+            <h2>Notes</h2>
+            <textarea id="notes-textarea" placeholder="Write your mind...."></textarea>
+            <button id="save-notes">Save Notes</button>
+        </section>
+    </main>
+    
+    <div id="level-content" style="display:none;">
+        <h2 id="level-title"></h2>
+        <div id="quiz-container">
+            <!-- Quiz questions will be dynamically generated here -->
+        </div>
+        <button id="back-to-tree">Back to home</button>
+    </div>
+    
+    <div id="login-form">
+        <h2>Login or Sign Up</h2>
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button id="login-btn">Login</button>
+        <button id="signup-btn">Sign Up</button>
+        <p id="login-message"></p>
+        <a id="back" href="Homepage.html">Back</a>
+        <label class="remember-container">
+  <input type="checkbox" id="rememberMe">
+  <span class="checkmark"></span>
+  Remember me
+</label>
+    </div>
+
+    
+    
+    <script src="embohwes.js"></script>
+</body>
+</html>
