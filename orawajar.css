@@ -302,7 +302,7 @@ main {
   text-align: left;
 }
 #forumlink {
-   position: absolute;
+   position: relative;
     top: 35px;
     right: 500px;
     background-color: #ffffff;
